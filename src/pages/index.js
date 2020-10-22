@@ -1,5 +1,10 @@
 import React from 'react'
+import Layout from 'components/Layout'
 
-export default function Home() {
-  return <div>Gatsby Template</div>
-}
+const Index = () => (
+  <Layout>
+    <h1>Gatsby Tempate</h1>
+  </Layout>
+)
+
+export default Index
